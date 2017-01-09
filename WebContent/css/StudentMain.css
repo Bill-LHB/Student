@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0}
+.title{
+	height:50px;
+	background-color:Gray;
+	text-align:center;
+	font-size:20px;
+}
+.list{
+	height:20px;
+	background-color:Gray;
+	font-size:15px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.list li{
+	display:inline;
+}
+a{
+	text-decoration:none;
+}
+a:link {color:#000000;}      /* 未访问链接*/
+a:visited {color:FireBrick ;}  /* 已访问链接 */
+a:hover {color:LightGreen ;}  /* 鼠标移动到链接上 */
+a:active {color:LightGreen ;}  /* 鼠标点击时 */
+
+.ShowStudent{
+	/*position:absolute;
+	left:0;
+	bottom:0;*/
+	float:left;
+	/*background-color:red;*/
+	height:500px;
+	width:100%;
+}
+.iframe_a{
+	
+}
